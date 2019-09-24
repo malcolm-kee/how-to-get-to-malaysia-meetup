@@ -78,7 +78,11 @@ export const pageQuery = graphql`
           description
           photo {
             name
-            publicURL
+            childImageSharp {
+              fluid(maxWidth: 400) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
           }
         }
       }
@@ -87,7 +91,11 @@ export const pageQuery = graphql`
           description
           photo {
             name
-            publicURL
+            childImageSharp {
+              fluid(maxWidth: 400) {
+                ...GatsbyImageSharpFluid_withWebp
+              }
+            }
           }
         }
       }

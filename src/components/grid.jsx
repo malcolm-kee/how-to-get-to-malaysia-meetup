@@ -8,8 +8,9 @@ export const GridList = props => (
       listStyle: 'none',
       p: 0,
       display: 'grid',
-      gridTemplateColumns: 'repeat(auto-fill, minmax(400px, 1fr))',
-      gridGap: [2, 3],
+      gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
+      columnGap: [2, 3],
+      rowGap: [2, 3, 4],
     }}
   />
 );

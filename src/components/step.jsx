@@ -1,5 +1,6 @@
 /** @jsx jsx */
 import { jsx, Styled } from 'theme-ui';
+import Image from 'gatsby-image';
 
 export const Step = ({ stepNumber, description, photo }) => {
   return (
@@ -32,16 +33,7 @@ export const Step = ({ stepNumber, description, photo }) => {
       >
         {description}
       </Styled.p>
-      {photo && (
-        <img
-          src={photo.publicURL}
-          alt=""
-          loading="lazy"
-          sx={{
-            maxWidth: '100%',
-          }}
-        />
-      )}
+      {photo && <Image fluid={photo.childImageSharp.fluid} alt="" />}
     </section>
   );
 };
