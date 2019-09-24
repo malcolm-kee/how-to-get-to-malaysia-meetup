@@ -24,12 +24,12 @@ const VenueTemplate = ({ data: { details } }) => {
             </p>
           )}
           <h2>Detailed Instructions</h2>
-          {details.viaLrt && (
+          {details.lrt && (
             <Accordion
               summary={<h3>By LRT</h3>}
               details={
                 <GridList>
-                  {details.viaLrt.steps.map((step, index) => (
+                  {details.lrt.map((step, index) => (
                     <GridItem key={index}>
                       <Step
                         stepNumber={index + 1}
@@ -42,12 +42,12 @@ const VenueTemplate = ({ data: { details } }) => {
               }
             />
           )}
-          {details.viaDriving && (
+          {details.driving && (
             <Accordion
               summary={<h3>Driving There or Grab</h3>}
               details={
                 <GridList>
-                  {details.viaDriving.steps.map((step, index) => (
+                  {details.driving.map((step, index) => (
                     <GridItem key={index}>
                       <Step
                         stepNumber={index + 1}
@@ -70,31 +70,27 @@ export default VenueTemplate;
 
 export const pageQuery = graphql`
   query VenueById($id: String!) {
-    details: venueYaml(id: { eq: $id }) {
+    details: detailsYaml(id: { eq: $id }) {
       name
       googleMapUrl
-      viaLrt {
-        steps {
-          description
-          photo {
-            name
-            childImageSharp {
-              fluid(maxWidth: 510) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+      lrt {
+        description
+        photo {
+          name
+          childImageSharp {
+            fluid(maxWidth: 510) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
-      viaDriving {
-        steps {
-          description
-          photo {
-            name
-            childImageSharp {
-              fluid(maxWidth: 510) {
-                ...GatsbyImageSharpFluid_withWebp
-              }
+      driving {
+        description
+        photo {
+          name
+          childImageSharp {
+            fluid(maxWidth: 510) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }

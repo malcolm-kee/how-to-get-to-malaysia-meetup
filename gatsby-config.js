@@ -17,15 +17,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `instruction`,
-        path: path.resolve(__dirname, 'instruction'),
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `data`,
-        path: path.resolve(__dirname, 'data'),
+        name: `venue`,
+        path: path.resolve(__dirname, 'venue'),
       },
     },
     `gatsby-transformer-yaml`,

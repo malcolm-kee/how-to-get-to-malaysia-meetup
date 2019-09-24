@@ -1,0 +1,6 @@
+- id: inscale
+  name: Inscale Asia
+  lrt:
+    - description: 'Once you exit the Ampang Park LRT gate, turn left and go up the escalator.'
+    - description: 'At the end of the escalator, building on the right is Menara Binjai'
+    - description: 'Walk towards Menara Binjai and register yourself at the lobby. Inscale is at Level 12.'

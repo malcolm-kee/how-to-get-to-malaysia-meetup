@@ -1,0 +1,64 @@
+- id: fave
+  name: Fave Malaysia
+  googleMapUrl: https://goo.gl/maps/Nr2hKhonNEiLQKfu7
+  lrt:
+    - description: 'Once you exit the Kerinchi LRT gate, turn left.'
+      photo: './01-exit-lrt.jpg'
+    - description: 'Go into the walkway and turn right at the end.'
+      photo: './02-corridor-after-lrt-exit.jpg'
+    - description: 'When you turn right, you will see a pedestrian bridge. Use that pedestrian bridge.'
+      photo: './03-turn-right-after-corridor-to-see-pedestrian-bridge.jpg'
+    - description: 'Continue straight.'
+      photo: './04-go-towards-bangsar-south-via-pedestrian-bridge.jpg'
+    - description: 'You are on right track if you see this sign. Continue straight.'
+      photo: './04a-confirm-direction.jpg'
+    - description: 'At the end of the pedestrian bridge, you will see an escalator on your left side. Take that escalator.'
+      photo: './05-turn-right-to-escalator-at-the-end-of-pedestrian-bridge.jpg'
+    - description: 'Once you exit the escalator, on your right hand side is another escalator. Take the escalator.'
+      photo: './06-after-escalator-turn-right-and-take-escalator-on-right.jpg'
+    - description: 'Once you exit this escalator, you will see a fountain in front of you. Go towards the fountain.'
+      photo: './07-go-straight-and-pass-through-fountain.jpg'
+    - description: 'Walk pass the fountain or jump across it if you can. 10 points for Gryffindor if you jump across it successfully.'
+      photo: './07a-closer-look-at-fountain.jpg'
+    - description: "Stop at first road after the fountain. Touch N' Go office is on your right hand side (not in photo)."
+      photo: './08-after-fountain-stop-at-first-road.jpg'
+    - description: 'You will see MyNews across the road. March on, soldier!'
+      photo: './08a-see-mynews-at-turn-right.jpg'
+    - description: "You should NOT see this scene. I know you're excited to get ice-cream from Family Mart, but you had miss the turning. U-turn please."
+      photo: './08b-uturn-if-you-see-family-mart.jpg'
+    - description: "After turn right before MyNews, this is what you should see. Do you see that big guy? That's where you want to go. Go towards it."
+      photo: './09-see-destination-after-turn-right.jpg'
+    - description: 'If you see this "Tower 5" signboard of your left side, you''re on the right track.'
+      photo: './10-pass-through-tower-5-on-right-while-walking.jpg'
+    - description: 'At the end of the road, you will see a little stairway. Take that stairway.'
+      photo: './11-see-small-path-at-the-end-of-road.jpg'
+    - description: 'This is how it looks like when you taking the stair, but the guy is probably not there. If you see him, tell him he is famous now.'
+      photo: './12-taking-the-small-path.jpg'
+    - description: "At the end of the path, you will see a small pond. Now you're closer to the destination!"
+      photo: './13-see-the-lake-after-go-up-small-path.jpg'
+    - description: "Walk around the lake. Don't jump into the lake unless you want to attract the attention of the good-looking guy/gal that is passing by."
+      photo: './14-walk-along-the-path.jpg'
+    - description: 'This is how it looks like when you reach the destination.'
+      photo: './15-lobby-at-tower-b.jpg'
+    - description: 'Do you see the "Fave" sign? If yes, you''re at the right building.'
+      photo: './15a-confirm-right-tower.jpg'
+    - description: 'Register yourself at the reception. Be nice to the receptionist or the security guard. They are bored.'
+      photo: './16-register-at-reception.jpg'
+
+  driving:
+    - description: 'You will see the gate showing Vertical and Horizon when you approaches the destination. After this gate you will see a roundabout.'
+      photo: './101-approaching.jpg'
+    - description: 'Exit the roundabout and entering Vertical area'
+      photo: './102-entering-vertical.jpg'
+    - description: 'Once you enter the gate, you will see another roundabout. This signboard at the center of the roundabout show the parking and the destination.'
+      photo: './103-roundabout-sign-after-enter.jpg'
+    - description: 'Go here to the visitor parking (the road, not the lady).'
+      photo: './104-entrance-to-visitor-parking.jpg'
+    - description: 'After you parked your car, go up to the lobby floor and find for this little pond. The destination (Tower B) is next to it.'
+      photo: './105-go-up-to-lobby-floor-and-find-fountain.jpg'
+    - description: 'Once you enter the lobby, look for the e-directory. Play with it like a clueless tourist.'
+      photo: './106-check-the-office-in-building.jpg'
+    - description: "If you see Fave there, good job! You're at the right building!"
+      photo: './106a-verify-fave-is-there.jpg'
+    - description: 'Register yourself at the reception. Be nice to the receptionist or the security guard. They are bored.'
+      photo: './16-register-at-reception.jpg'

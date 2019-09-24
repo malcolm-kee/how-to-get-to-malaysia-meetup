@@ -11,11 +11,13 @@ const HomePage = ({ data }) => {
       <Layout>
         <Container>
           <h1>How to Get To Meetup At:</h1>
-          {data.venues.nodes.map(venue => (
-            <Link to={`/getting-to/${venue.id}/`} key={venue.id}>
-              {venue.name}
-            </Link>
-          ))}
+          <ul>
+            {data.venues.nodes.map(venue => (
+              <li key={venue.id}>
+                <Link to={`/getting-to/${venue.id}/`}>{venue.name}</Link>
+              </li>
+            ))}
+          </ul>
         </Container>
       </Layout>
     </>
@@ -24,7 +26,7 @@ const HomePage = ({ data }) => {
 
 export const pageQuery = graphql`
   {
-    venues: allVenueYaml {
+    venues: allDetailsYaml(sort: { fields: name, order: ASC }) {
       nodes {
         id
         name
