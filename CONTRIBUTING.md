@@ -1,18 +1,16 @@
 # Contributing
 
-## Venue Details
+The venue details is available in the `venue` folder.
 
-To add a new venue, update [venue.yaml](data/venue.yaml)
+For each venue, create a folder with the venue name and a `details.yaml` file.
 
-## Detailed Instructions
+Required fields in `details.yaml` file are:
 
-To add instruction to go to a venue:
+- `id`
+- `name`
 
-1. For instruction for going via LRT, update [lrt.yaml](instruction/lrt.yaml)
-1. For instruction for driving or Grab, update [driving.yaml](instruction/driving.yaml)
+Optional fields in `details.yaml` file are:
 
-## Photos
-
-To add new photo, create a folder in `instruction` with the name of the venue and add the photos there.
-
-To avoid making this repo too large, optimize the image by resize it to 1600px with [Squoosh](https://squoosh.app).
+- `googleMapUrl`
+- `lrt` (this is a list of `description` and `photo`. `photo` is optional)
+- `driving` (this is a list of `description` and `photo`. `photo` is optional)
