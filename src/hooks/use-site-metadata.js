@@ -7,6 +7,7 @@ export function useSiteMetadata() {
         siteMetadata {
           title
           description
+          repositoryUrl
         }
       }
     }

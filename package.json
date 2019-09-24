@@ -13,6 +13,10 @@
   ],
   "author": "",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malcolm-kee/how-to-get-to-malaysia-meetup"
+  },
   "dependencies": {
     "@emotion/core": "^10.0.17",
     "@mdx-js/react": "^1.5.0",

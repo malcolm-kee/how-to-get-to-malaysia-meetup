@@ -7,6 +7,7 @@ module.exports = {
     url: `https://how-to-get-to-malaysia-meetup.netlify.com`,
     description: packageJson.description,
     keywords: packageJson.keywords,
+    repositoryUrl: packageJson.repository.url,
   },
   plugins: [
     `gatsby-plugin-theme-ui`,

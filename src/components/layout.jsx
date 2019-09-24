@@ -3,6 +3,7 @@ import { Global } from '@emotion/core';
 import * as UI from 'theme-ui';
 import { jsx } from 'theme-ui';
 import { Header } from './header';
+import { Footer } from './footer';
 
 export const Layout = props => (
   <UI.Layout
@@ -35,5 +36,8 @@ export const Layout = props => (
       <Header />
     </UI.Header>
     <UI.Main>{props.children}</UI.Main>
+    <UI.Footer>
+      <Footer />
+    </UI.Footer>
   </UI.Layout>
 );
