@@ -10,7 +10,7 @@ export const GridList = props => (
       display: 'grid',
       gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))',
       columnGap: [2, 3],
-      rowGap: [2, 3, 4],
+      rowGap: [3, 3, 4],
     }}
   />
 );
