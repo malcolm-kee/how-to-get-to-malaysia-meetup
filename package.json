@@ -1,0 +1,29 @@
+{
+  "name": "how-to-get-to-malaysia-meetup",
+  "version": "1.0.0",
+  "description": "Detailed step-by-step instructions getting to venues for meetup in Malaysia",
+  "scripts": {
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "clean": "gatsby clean"
+  },
+  "keywords": [
+    "kuala lumpur",
+    "meetup in malaysia"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/core": "^10.0.17",
+    "@mdx-js/react": "^1.5.0",
+    "gatsby": "^2.15.21",
+    "gatsby-plugin-react-helmet": "^3.1.8",
+    "gatsby-plugin-theme-ui": "^0.2.43",
+    "gatsby-source-filesystem": "^2.1.26",
+    "gatsby-transformer-yaml": "^2.2.10",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-helmet": "^5.2.1",
+    "theme-ui": "^0.2.43"
+  }
+}
